@@ -62,7 +62,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #121212;
-	background-image: url("file:///E:/Semester%202/UI%20and%20WEB/website/website%20background.png")
+  background-image: url("https://cdn.discordapp.com/attachments/964794420983627797/979834167250530344/website_background.png")
 	 
 	
 }
@@ -694,6 +694,7 @@ pre code {
 	border:thin;
 	border-radius: 10px;
 	border-style: solid;
+	padding-top: 15px;
 	
 }
 
@@ -4829,6 +4830,7 @@ input[type="button"].btn-block {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 	color: #fff;
+	padding-top: 15px;padding-top: 15px;
 
 }
 
