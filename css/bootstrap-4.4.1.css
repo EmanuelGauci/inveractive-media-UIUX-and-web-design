@@ -42,10 +42,11 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Agency FB';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-size: 1.2rem;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -54,12 +55,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  font-family: 'Agency FB';
+  font-size: 0 rem;
+  font-weight: 300;
+  line-height: 1.2;
 	
-  color: #212529;
+  color: #1A1A1A;
   text-align: left;
   background-color: #121212;
   background-image: url("https://cdn.discordapp.com/attachments/964794420983627797/979834167250530344/website_background.png")
@@ -79,18 +80,24 @@ body {
 	background-color:#1557AF;
 	
   border: none;
-  color: white;
+  color: #fff;
   padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 40px;
+  font-size: 30px;
   margin: 4px 2px;
-	border: 2px solid #000;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
 	
 	
+}
+
+.mainButtons:hover {
+  color: #fff;
+  border-color: #fff;
+  text-decoration: none;
 }
 
 /* styling navlist */
@@ -127,17 +134,15 @@ body {
         height:50px;
         border-radius:5px;
         border: none;
-		background-color: #1557AF;
-		
-		
-		
-    }
+		background-color:#1557AF;
+	}
          
     .search{
        
         margin:7px;
     }
-         
+
+       
     
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2163,28 +2168,29 @@ pre code {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
+
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #fff;
   opacity: 1;
 }
 
@@ -2651,20 +2657,21 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color:#1557AF;
   border-color: #007bff;
+	
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color:#1557AF;
+  border-color: #fff;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-	background-color: #0069d9;
-  border-color: #0062cc;
+	background-color: #1557AF;
+  border-color: #fff;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
@@ -2677,7 +2684,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
+  background-color:#1557AF;
   border-color: #005cbf;
 }
 
@@ -7316,6 +7323,7 @@ button.bg-dark:focus {
 .justify-content-center {
   -ms-flex-pack: center !important;
   justify-content: center !important;
+  padding-top: 10px;
 }
 
 .justify-content-between {
